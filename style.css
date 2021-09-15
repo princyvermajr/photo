@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: 'Besley', serif;
+}
+
+#home {
+    z-index: 9;
+    text-align: center;
+}
+
+#grid view {
+    text-align: center;
+    background-color: aqua;
+
+}
+
+#slide view {
+    text-align: center;
+
+    background-color: yellow;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.link {
+
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+.links:hover {
+    background-color: blue;
+}
